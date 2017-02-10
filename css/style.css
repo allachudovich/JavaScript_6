@@ -1,0 +1,128 @@
+body {
+    background-color: #FFDAB9;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Arial;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.myphoto {
+    width: 218px;
+    height: 218px;
+    border: 1px;
+    border-color: #8f8f8f;
+    margin-left: 400px;
+}
+
+.text1 {
+    font-family: Arial;
+    font-size: 14px;
+    color: #a2a6a4;
+    padding-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a2a6a4;
+}
+
+.about {
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list {
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-bottom: 30px;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-size: 14px;
+    color: #a2a6a4;
+    border-bottom: 1px solid #a2a6a4;
+}
+
+.number {
+    padding-left: 240px;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-size: 14px;
+    color: #a2a6a4;
+}
+
+.link {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-size: 14px;
+    border-bottom: 1px solid #a2a6a4;
+}
+
+.feedback {
+    padding-left: 240px;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-size: 14px;
+    color: #a2a6a4;
+}
+
+.carousel-hider {
+    margin: 10px auto;
+    position: relative;
+    width: 1110px;
+    overflow: hidden;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 350px;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    font: 24px/27px Arial, sans-serif;
+}
+
+.carousel-arrow-left {
+    margin-top: 125px;
+    margin-left: 675px;
+}
+
+.carousel-arrow-right {
+    margin-top: -140px;
+    margin-left: 1830px;
+}

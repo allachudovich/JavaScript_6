@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript 11-12</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/jquery.carousel.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <script type="text/html" id="form-info">
+        <div class="wrapper">
+            <h1><%= data.name %></h1>
+            <div class="myphoto">
+                <img src=" <%= data.img %> " alt="Image not found">
+            </div>
+            <div class="text1">
+                <%= data.text %>
+            </div>
+            <div class="about">
+                <%= data.why %>
+            </div>
+            <ul class="list">
+                <% for ( var i = 0; i < data.whyList.length; i++) { %>
+                    <li>
+                        <%= data.whyList[i] %>
+                    </li>
+                    <% }; %>
+            </ul>
+
+            <div class="about">
+                <%= data.phone %>
+            </div>
+            <p class="number">
+                <%= data.number %>
+            </p>
+            <div class="about">
+                <%= data.page %>
+            </div>
+            <div>
+                <p class="link">
+                    <a href=" <%= data.vk %> ">vk.com</a>
+                </p>
+            </div>
+
+            <div class="about">
+                <%= data.feedback %>
+            </div>
+            <p class="feedback">
+                <%= data.answer %>
+            </p>
+        </div>
+    </script>
+
+    <div class="carousel">
+        <a href="#" class="carousel-arrow-left">&lsaquo;</a>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/img1.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img2.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img3.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img4.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img5.jpg" alt=""></li>
+            </ul>
+        </div>
+        <a href="#" class="carousel-arrow-right">&rsaquo;</a>
+    </div>
+
+
+</body>
+
+</html>
