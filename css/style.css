@@ -1,10 +1,14 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #FFDAB9;
 }
 
 .wrapper {
-    width: 1024px;
     margin: 0 auto;
+    width: 1024px;
 }
 
 h1 {
@@ -82,17 +86,21 @@ h1 {
     color: #a2a6a4;
 }
 
+.carousel {
+    position: absolute;
+    left: 27%;
+    top: 75%
+}
+
 .carousel-hider {
-    margin: 10px auto;
-    position: relative;
-    width: 1110px;
+    float: left;
+    width: 1165px;
     overflow: hidden;
 }
 
 .carousel-list {
     list-style: none;
     width: 10000px;
-    padding: 0;
     position: relative;
 }
 
@@ -107,7 +115,9 @@ h1 {
 }
 
 .carousel-arrow-left, .carousel-arrow-right {
-    position: absolute;
+    float: left;
+    display: block;
+    margin-top: 125px;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -117,12 +127,6 @@ h1 {
     font: 24px/27px Arial, sans-serif;
 }
 
-.carousel-arrow-left {
-    margin-top: 125px;
-    margin-left: 675px;
-}
-
 .carousel-arrow-right {
-    margin-top: -140px;
-    margin-left: 1830px;
+    margin-left: 25px;
 }
